@@ -6,10 +6,10 @@
 
 # Instagram clone
 
-## Objetivo
+## Objetivo:
 Fixar conceitos sobre HTML e CSS ao Recriar a página de login do Instagram
 
-## Conceitos aprendidos
+## Conceitos aprendidos:
 - Criação de página HTML
 - Utilização de classes e ID para identificação
 - Flexbox
@@ -17,6 +17,10 @@ Fixar conceitos sobre HTML e CSS ao Recriar a página de login do Instagram
 - Alteração de tema (Adicional criado por mim)
 
 
-## Fonte do treinamento
+## Fonte do treinamento:
 
 [Bootcamp - HTML Web Developer](https://web.digitalinnovation.one/track/html-web-developer?tab=path)
+
+## Demo:
+
+![Demonstration video](images/demo_video.gif)
