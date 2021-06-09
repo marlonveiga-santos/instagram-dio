@@ -5,6 +5,7 @@ var checkbox = document.getElementById("themeToggle");
 /* Verifica se modo escuro está habilitado */
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     checkbox.checked = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
 } else {
     checkbox.checked = false;
 }
@@ -16,6 +17,6 @@ checkbox.addEventListener('change', (event) => {
         document.documentElement.setAttribute('data-theme', 'dark');
     } else {
         image.src = "images/instagram-logo.png";
-        document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.setAttribute('data-theme', '');
     }
 });
